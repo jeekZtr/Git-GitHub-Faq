@@ -1,0 +1,50 @@
+
+gitlab  权限
+https://blog.csdn.net/justlpf/article/details/80681853
+
+git eclipse中 分支 操作  master 
+https://blog.csdn.net/u012506661/article/details/78052888
+
+Git & Gitlab 使用指南  一些术语
+https://blog.csdn.net/zdx1515888659/article/details/72954000
+
+
+重要参看教程 廖雪峰
+https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
+
+https://jingyan.baidu.com/article/cbf0e50045410a2eab28937f.html
+
+
+
+占时保存修改内容, 清理工作取到初始状态  dev branch
+git stash
+
+名字:
+https://www.kancloud.cn/kancloud/how-to-use-github/42191
+
+Git Cheat Sheet
+https://www.jianshu.com/p/c4ace9202a34
+
+
+阮一峰   Git分支管理策略
+http://www.ruanyifeng.com/blog/2012/07/git.html
+		 
+阮一峰	 Git远程操作详解
+http://www.ruanyifeng.com/blog/2014/06/git_remote.html
+
+Git飞行规则(Flight Rules)
+https://github.com/k88hudson/git-flight-rules/blob/master/README_zh-CN.md
+
+Git分支本地操作详解
+https://www.cnblogs.com/videring/articles/6962005.html
+
+Git中的merge、rebase、cherry-pick、revert等图形理解
+https://blog.csdn.net/chinoukin/article/details/81739229
+
+【Git系列】git rebase详解   c1<--c2<--c3<--c4<--c5<--c6  ||  c1 c3 c4 c2 c5
+https://www.cnblogs.com/pinefantasy/articles/6287147.html
+[Git高级教程(二)] 远程仓库版本回退方法
+https://blog.csdn.net/fuchaosz/article/details/52170105
+git 优雅的撤销中间某次提交 (revert 的使用示例)
+https://blog.csdn.net/u013066244/article/details/79920012
