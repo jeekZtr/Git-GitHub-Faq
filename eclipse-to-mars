@@ -1,0 +1,22 @@
+eclipse 更新版本 到 mars 4.8
+
+适配现在工作环境
+1, 安装 tommcat 插件
+https://blog.csdn.net/u012454429/article/details/78970085
+https://blog.csdn.net/a695422768/article/details/71698963
+2, 安装 vm 插件  veloeclipse
+
+4, 配置 tommcat 缓存大小  , 修改字体 ,
+内存
+https://blog.csdn.net/Master_Guo/article/details/53428182
+https://www.cnblogs.com/youngjoy/p/4239978.html
+-Xms128M 
+-Xmx512M
+-XX:PermSize=512M 
+-XX:MaxPermSize=1024m
+
+font
+
+------------
+更换版本管理工具 (我们使用版本太旧,支持git的版本太低了)
+1,
