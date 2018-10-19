@@ -1,3 +1,7 @@
+git 官方文档
+https://git-scm.com/docs
+git 码云官方的git资料
+https://gitee.com/all-about-git
 
 gitlab  权限
 https://blog.csdn.net/justlpf/article/details/80681853
@@ -17,7 +21,7 @@ https://jingyan.baidu.com/article/cbf0e50045410a2eab28937f.html
 
 
 
-占时保存修改内容, 清理工作取到初始状态  dev branch
+占时保存修改内容, 清理工作区到初始状态  dev branch
 git stash
 
 名字:
@@ -48,3 +52,6 @@ https://www.cnblogs.com/pinefantasy/articles/6287147.html
 https://blog.csdn.net/fuchaosz/article/details/52170105
 git 优雅的撤销中间某次提交 (revert 的使用示例)
 https://blog.csdn.net/u013066244/article/details/79920012
+
+svn 到 git 版本的转化
+https://blog.csdn.net/xueshanhaizi/article/details/54929365?utm_source=copy 
