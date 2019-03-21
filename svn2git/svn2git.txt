@@ -1,10 +1,20 @@
----转换svn的提交者信息到git模式-------
+﻿---转换svn的提交者信息到git模式-------
 --生成用户文件
-java -jar svn-migration-scripts.jar authors http://10.1.71.193/svn/employeebenefits/sourcecode/RBAC > authors.txt
-java -jar svn-migration-scripts.jar authors http://10.1.71.193/svn/employeebenefits/sourcecode/fe> authorsfe.txt
+java -jar svn-migration-scripts.jar authors http://10.1.107.88/svn/employeebenefits/sourcecode/RBAC > authors.txt
+java -jar svn-migration-scripts.jar authors http://10.1.107.88/svn/employeebenefits/sourcecode/fe> authorsfe.txt
+
+java -jar svn-migration-scripts.jar authors http://10.5.96.148/svn/zxbc/sourcecode/pai-apps > authors.txt
+java -jar svn-migration-scripts.jar authors http://10.5.96.148/svn/zxbc/sourcecode/RBAC > authors-RBAC.txt
+java -jar svn-migration-scripts.jar authors http://10.5.96.148/svn/zxbc/sourcecode/widm > authors-widm.txt
 --转化工程
 git svn clone -r69800:HEAD http://10.1.71.193/svn/employeebenefits/sourcecode/RBAC --no-metadata --no-minimize-url --authors-file=authors.txt --no-minimize-url  RBAC
 
 git svn clone -r69800:HEAD http://10.1.71.193/svn/employeebenefits/sourcecode/fe --no-metadata --no-minimize-url --authors-file=authorsfe.txt --no-minimize-url  fe
+
+git svn clone -r1:HEAD http://10.5.96.148/svn/zxbc/sourcecode/pai-apps --no-metadata --no-minimize-url --authors-file=authorsfe.txt --no-minimize-url  pai-apps
+
+git svn clone -r2000:HEAD http://10.5.96.148/svn/zxbc/sourcecode/RBAC --no-metadata --no-minimize-url --authors-file=authors-RBAC.txt --no-minimize-url  RBAC
+
+git svn clone -r2000:HEAD http://10.5.96.148/svn/zxbc/sourcecode/widm --no-metadata --no-minimize-url --authors-file=authors-widm.txt --no-minimize-url  widm
 ----参考----
 https://blog.csdn.net/xueshanhaizi/article/details/54929365
